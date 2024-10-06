@@ -1,0 +1,36 @@
+div{
+    height: 200px;
+    width: 500px;
+    background-color: peru;
+    font-family: monospace;
+    /*border-width: 5px;
+    Or(border: 2px solid black;)->Width style color*//*border-style: solid;
+    border-color: blue;*/
+    border: 5px solid black;
+    /*border-left-color: red;
+    border-left-style: dashed;
+    border-top: 5px dashed blue;
+    border-radius: 15px;
+    *//*border-top-right-radius: 50px;*/
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 20px 30px 40px 50px; /* (Top right bottom left) */
+}
+
+h1{
+    /*border-width: 2px;
+    border-style: dashed;
+    border-color: maroon;*/
+    border: 2px dashed maroon;
+    /* border-radius: 15px; */
+    margin: 0;
+}
+
+button{
+    border: 2px solid black;
+    /* border-radius: 10px; */
+    padding: 0 30px 0 30px; /* (Top right bottom left) */
+    background-color: yellow;
+}

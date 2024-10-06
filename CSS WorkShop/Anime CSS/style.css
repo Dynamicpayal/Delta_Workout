@@ -1,0 +1,67 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    /*animation-name: fontAnime;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+
+    animation-name: colorAnime;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;/*
+
+    /*animation-name: widthAnime;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;*/
+
+    animation: fontAnime 3s ease-in 0s infinite alternate;
+    
+}
+
+@keyframes fontAnime{
+    from
+    {
+        font-size: 20px;
+        width: 10px;
+        background-color: yellow;
+    }
+    to
+    {
+        font-size: 40px;
+        width: 400px;
+        background-color: blue;
+        border-radius: 15px;
+
+}
+}
+
+@keyframes widthAnime{
+    from{
+        width: 10px;
+    }
+    to{
+        width: 400px;
+    }
+}
+
+@keyframes colorAnime{
+    from{
+        background-color: yellow;
+    }
+    to{
+        background-color: blue;
+    }
+}
+
+/*? Animation Shorthand */
+/*? animation :myName 2s linear 3s infinite normal; */
+/** We can use percentage to create different time intervals like from/0% , to/100% in 50%, in 80% and so on. */

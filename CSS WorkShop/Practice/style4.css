@@ -1,0 +1,80 @@
+h1{
+    color: pink;
+}
+
+#greet{ /* Highest Priority */
+    color: blue;
+}
+
+.myClass{
+    color: brown;
+}
+
+div p{ /* Descendant selector (0 0 2)*/
+    background-color: yellowgreen;
+}
+
+.para{ /* Class selector (0 1 0)*/
+    background-color: limegreen;
+}
+
+p{ /* Element selector (0 0 1) -> (Id Class Element) respectively*/
+    background-color: lawngreen;
+}
+
+div.greetDiv .greet{ /* (0 2 1) */
+    color: green;
+}
+
+.greetDiv p.greet{ /* (0 2 1) Present in second so it is having highest priority*/
+    color: blue;
+}
+
+.greetDiv .greet{ /* (0 2 0) */
+    color: red;
+}
+
+button:hover{
+    background-color: crimson;
+    color: white;
+}
+
+button:active{
+    background-color: orange;
+    color: black;
+}
+
+h1{
+    color: orangered;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+h2{
+    color: darkred;
+}
+
+h2::first-letter{
+    color: orangered;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+h2::first-line{
+    color: darkgoldenrod;
+}
+
+h2::selection{
+    background-color: lightcoral;
+}
+
+h2{
+    background-color: blue;
+}
+
+h2{
+    background-color: slateblue;
+}

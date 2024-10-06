@@ -1,0 +1,23 @@
+div{
+    background-color: violet;
+}
+
+form{
+    background-color: lime;
+}
+
+input{
+    background-color: inherit;
+}
+
+input{
+    background-color: red;
+}
+
+button{
+    background-color: inherit;
+}
+
+button:hover{
+    background-color: darkorange;
+}

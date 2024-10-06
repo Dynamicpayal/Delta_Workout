@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="./server">
+        <label>
+            Username : 
+            <input type="text" placeholder="Enter Your Name">
+        </label> <!--We can use label tag in 2 diff ways (using label tag or by using id and for attribute in input tag and label tag respectively.) -->
+        <br><br>
+
+        <div>
+            <label for="password">Password :</label>
+            <input type="password" id="password" placeholder="Enter Your Password">
+        </div>
+        <br><br>
+
+        <div>
+            <label for="age">Enter Your Age :</label>
+            <input type="number" placeholder="age" id="age">
+        </div>
+        <br><br>
+
+        Time :
+            <input type="time">
+            <br><br>
+
+        Number : 
+            <input type="number">
+            <br><br>
+
+        EmaiL :
+            <input type="email">
+            <br><br>
+
+        Color :
+            <input type="color">
+            <br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+    </form>
+    <br>
+
+    <form action="./action">
+        <button type="button">Andha</button> <!--It will take another webpage which is linked with the form tag-->
+    </form>
+    <br>
+
+    <button>Hun Hun</button> <!--No action will perform becoz it doesn't linked with form tag-->
+    <br><br>
+
+    <input type="button" value="Click Me">
+    <br><br>
+
+    <input type="submit"> <!--It's not good practice to create a button-->
+</body>
+</html>

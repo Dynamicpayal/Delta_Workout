@@ -1,0 +1,12 @@
+div{
+    width: 440px;
+    height: 200px;
+    background-color: lightgreen;
+    margin: 10px auto;
+    background-image: url("Pyari\ Maiya.jpg");
+    background-size: contain;
+    color: yellow;
+}
+
+
+/*? Use unsplash website for copyright free images to set in the background. */

@@ -1,0 +1,45 @@
+#myId p{
+    color: tomato;
+}
+
+#myId h1{
+    color: olivedrab;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#myId h4{
+    color: chocolate;
+    background-color: lightslategrey;
+}
+
+main[class="main-cont"] p{ /* Descendant selector */
+    color: saddlebrown;
+}
+
+ p+h5{ /* Adjacent Sibling combinator */
+    color: mediumspringgreen;
+}
+
+div li{ /* Child combinator */
+    color: darkblue;
+}
+
+div p{
+    color: #636363;
+}
+
+input[type="text"]{ /* Attribute selector */
+    color: goldenrod;
+}
+
+input[type="password"]{ /* Attribute selector */
+    color: maroon;
+}
+
+input[type]{
+    background-color: #fff;
+}
